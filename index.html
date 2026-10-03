@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Point Cafe — breakfast, brunch, lunch and coffee at Tattenham Corner, Epsom Downs.">
+  <title>Point Cafe — Tattenham Corner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Point Cafe home"><span>POINT</span><small>CAFE</small></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#menu">Menu</a>
+      <a href="#story">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+      <a class="nav-cta" href="tel:+441737355353">Call us</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">TATTENHAM CORNER · EPSOM DOWNS</p>
+        <h1>Good food.<br><em>Good point.</em></h1>
+        <p class="hero-text">A welcoming local café for generous breakfasts, relaxed lunches, great coffee and a proper catch-up.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#menu">Explore the menu <span>↗</span></a>
+          <a class="text-link" href="#visit">Find us <span>→</span></a>
+        </div>
+      </div>
+      <div class="hero-image image-slot">
+        <!-- IMAGE SLOT: replace hero-placeholder.jpg with a Google Maps / owner photo -->
+        <img src="images/hero-placeholder.jpg" alt="Point Cafe exterior or signature dish">
+        <div class="image-note">YOUR PHOTO<br><span>HERO IMAGE</span></div>
+      </div>
+    </section>
+
+    <section class="quick-strip">
+      <div><strong>06:30</strong><span>Mon–Sat opening</span></div>
+      <div><strong>08:00</strong><span>Sunday opening</span></div>
+      <div><strong>£</strong><span>Casual, good-value café</span></div>
+      <div><strong>☕</strong><span>Coffee · Breakfast · Lunch</span></div>
+    </section>
+
+    <section class="intro section" id="story">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="intro-grid">
+        <div>
+          <h2>Your local<br><span>starting point.</span></h2>
+        </div>
+        <div class="intro-copy">
+          <p>Point Cafe sits at 41 Tattenham Crescent, right in the Tattenham Corner community. It is a family-run-style local café atmosphere with indoor and outdoor seating, breakfast, brunch and lunch options, takeaway and coffee.</p>
+          <p>Come in for a quick coffee, settle down for lunch, or make a morning of it. There’s room for groups, families and solo coffee stops.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-photo image-slot">
+      <!-- IMAGE SLOT: replace cafe-placeholder.jpg -->
+      <img src="images/cafe-placeholder.jpg" alt="Point Cafe seating area">
+      <div class="image-note">YOUR PHOTO<br><span>CAFÉ / SEATING</span></div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-label">02 / THE MENU</div>
+      <div class="menu-heading">
+        <div>
+          <h2>From first<br><span>coffee to lunch.</span></h2>
+        </div>
+        <p>Point Cafe is known locally for breakfast and lunch, generous portions, coffee and a wide choice of casual café favourites.</p>
+      </div>
+
+      <div class="menu-tabs" role="tablist">
+        <button class="active" data-category="breakfast">Breakfast</button>
+        <button data-category="lunch">Lunch</button>
+        <button data-category="coffee">Coffee & tea</button>
+      </div>
+
+      <div class="menu-panel active" id="breakfast">
+        <article><span>01</span><div><h3>Full Breakfast</h3><p>A hearty café breakfast — the classic way to start.</p></div><b>MENU</b></article>
+        <article><span>02</span><div><h3>Breakfast Favourites</h3><p>Comforting morning dishes and generous portions.</p></div><b>MENU</b></article>
+        <article><span>03</span><div><h3>Healthy Choices</h3><p>Lighter options are available alongside the classics.</p></div><b>MENU</b></article>
+      </div>
+
+      <div class="menu-panel" id="lunch">
+        <article><span>01</span><div><h3>Lunch Plates</h3><p>Relaxed café favourites made for a proper lunch.</p></div><b>MENU</b></article>
+        <article><span>02</span><div><h3>Fish & Chips</h3><p>A popular choice listed across Point Cafe dining information.</p></div><b>MENU</b></article>
+        <article><span>03</span><div><h3>Quick Bites</h3><p>Simple options when you want something quick and satisfying.</p></div><b>MENU</b></article>
+      </div>
+
+      <div class="menu-panel" id="coffee">
+        <article><span>01</span><div><h3>Mocha</h3><p>One of the drinks specifically praised by local diners.</p></div><b>COFFEE</b></article>
+        <article><span>02</span><div><h3>Fresh Coffee</h3><p>A café essential, served throughout the day.</p></div><b>COFFEE</b></article>
+        <article><span>03</span><div><h3>Tea</h3><p>A broad tea selection for an easy afternoon stop.</p></div><b>TEA</b></article>
+      </div>
+
+      <div class="menu-note">Menu items and prices can be replaced with Point Cafe’s current menu card or Google Maps menu photo.</div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-label">03 / GALLERY</div>
+      <div class="gallery-head">
+        <h2>A little look<br><span>inside.</span></h2>
+        <p>Swap these placeholders for the best food and café photos from the Google Maps listing.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-card tall image-slot"><img src="images/food-1.jpg" alt="Point Cafe food"><div class="image-note">FOOD PHOTO</div></div>
+        <div class="gallery-card image-slot"><img src="images/food-2.jpg" alt="Point Cafe dish"><div class="image-note">FOOD PHOTO</div></div>
+        <div class="gallery-card image-slot"><img src="images/interior.jpg" alt="Point Cafe interior"><div class="image-note">INTERIOR PHOTO</div></div>
+      </div>
+    </section>
+
+    <section class="visit section" id="visit">
+      <div class="visit-card">
+        <div>
+          <div class="section-label light">04 / VISIT</div>
+          <h2>See you<br><span>at the Point.</span></h2>
+          <p>41 Tattenham Crescent<br>Epsom Downs, Surrey<br>KT18 5QJ</p>
+          <div class="visit-actions">
+            <a class="button button-light" href="https://www.google.com/maps/search/?api=1&query=Point+Cafe%2C+41+Tattenham+Crescent%2C+Epsom+KT18+5QJ" target="_blank" rel="noopener">Open in Maps ↗</a>
+            <a class="phone" href="tel:+441737355353">01737 355353</a>
+          </div>
+        </div>
+        <div class="hours">
+          <h3>Opening hours</h3>
+          <div><span>Mon – Sat</span><strong>06:30 — 16:00</strong></div>
+          <div><span>Sunday</span><strong>08:00 — 15:00</strong></div>
+          <small>Hours shown from current public business listings. Confirm with the café before publishing.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo"><span>POINT</span><small>CAFE</small></div>
+    <p>41 Tattenham Crescent · Epsom Downs</p>
+    <a href="https://www.facebook.com/1102608673149023" target="_blank" rel="noopener">Facebook ↗</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
